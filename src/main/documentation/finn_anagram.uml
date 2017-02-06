@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="297.78125" y="279.0">classes.SampleServiceImpl</node>
+    <node x="564.0" y="89.0">interfaces.Validator</node>
+    <node x="569.5" y="290.0">classes.ValidatorImpl</node>
+    <node x="874.5" y="279.5">classes.AnagramServiceImpl</node>
+    <node x="776.0" y="78.0">interfaces.AnagramService</node>
+    <node x="305.0" y="89.0">interfaces.SampleService</node>
+    <node x="0.0" y="0.0">classes.Sample</node>
+    <node x="624.0" y="448.0">Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="classes.SampleServiceImpl" target="classes.Sample">
+      <point x="-74.66666666666674" y="-59.5" />
+      <point x="335.11458333333326" y="254.0" />
+      <point x="142.5" y="254.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="classes.AnagramServiceImpl" target="interfaces.AnagramService">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Application" target="classes.AnagramServiceImpl">
+      <point x="56.0" y="-25.5" />
+      <point x="764.0" y="423.0" />
+      <point x="999.5" y="423.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="classes.SampleServiceImpl" target="interfaces.SampleService">
+      <point x="0.0" y="-59.5" />
+      <point x="409.78125" y="254.0" />
+      <point x="424.5" y="254.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="classes.SampleServiceImpl" target="interfaces.Validator">
+      <point x="74.66666666666663" y="-59.5" />
+      <point x="484.44791666666663" y="254.0" />
+      <point x="612.0" y="254.0" />
+      <point x="-48.0" y="25.5" />
+    </edge>
+    <edge source="Application" target="classes.SampleServiceImpl">
+      <point x="-56.0" y="-25.5" />
+      <point x="652.0" y="423.0" />
+      <point x="409.78125" y="423.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="classes.ValidatorImpl" target="interfaces.Validator">
+      <point x="0.0" y="-48.5" />
+      <point x="48.0" y="25.5" />
+    </edge>
+    <edge source="Application" target="classes.ValidatorImpl">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8704746580852776" x="611.5" y="249.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
